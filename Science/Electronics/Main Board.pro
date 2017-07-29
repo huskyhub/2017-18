@@ -1,4 +1,4 @@
-update=22/05/2015 07:44:53
+update=7/29/2017 10:39:15 AM
 version=1
 last_client=kicad
 [general]
@@ -60,3 +60,7 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=pdb-io
+LibName31=science_pdb_io_brd-cache
+LibName32=science_pdb_io_brd-rescue
+LibName33=scienceparts
