@@ -1,0 +1,304 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:pdb-io
+LIBS:science_pdb_io_brd-cache
+LIBS:science_pdb_io_brd-rescue
+LIBS:scienceparts
+LIBS:Main Board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L +12V #PWR?
+U 1 1 59E172F9
+P 900 800
+F 0 "#PWR?" H 900 650 50  0001 C CNN
+F 1 "+12V" H 900 940 50  0000 C CNN
+F 2 "" H 900 800 50  0000 C CNN
+F 3 "" H 900 800 50  0000 C CNN
+	1    900  800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 59E1739E
+P 1250 800
+F 0 "#PWR?" H 1250 650 50  0001 C CNN
+F 1 "+5V" H 1250 940 50  0000 C CNN
+F 2 "" H 1250 800 50  0000 C CNN
+F 3 "" H 1250 800 50  0000 C CNN
+	1    1250 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  800  900  900 
+Wire Wire Line
+	1250 800  1250 900 
+$Comp
+L LED D?
+U 1 1 59E18151
+P 900 1050
+F 0 "D?" H 900 1150 50  0000 C CNN
+F 1 "LED" H 900 950 50  0000 C CNN
+F 2 "" H 900 1050 50  0000 C CNN
+F 3 "" H 900 1050 50  0000 C CNN
+	1    900  1050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	900  1200 900  1250
+$Comp
+L R R?
+U 1 1 59E181A9
+P 900 1400
+F 0 "R?" V 980 1400 50  0000 C CNN
+F 1 "R" V 900 1400 50  0000 C CNN
+F 2 "" V 830 1400 50  0000 C CNN
+F 3 "" H 900 1400 50  0000 C CNN
+	1    900  1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 59E181D8
+P 1250 1050
+F 0 "D?" H 1250 1150 50  0000 C CNN
+F 1 "LED" H 1250 950 50  0000 C CNN
+F 2 "" H 1250 1050 50  0000 C CNN
+F 3 "" H 1250 1050 50  0000 C CNN
+	1    1250 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59E181F9
+P 1250 1400
+F 0 "R?" V 1330 1400 50  0000 C CNN
+F 1 "R" V 1250 1400 50  0000 C CNN
+F 2 "" V 1180 1400 50  0000 C CNN
+F 3 "" H 1250 1400 50  0000 C CNN
+	1    1250 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1250 1250 1200
+Wire Wire Line
+	900  1550 900  1600
+Wire Wire Line
+	1250 1550 1250 1600
+$Comp
+L GND #PWR?
+U 1 1 59E1826A
+P 1250 1600
+F 0 "#PWR?" H 1250 1350 50  0001 C CNN
+F 1 "GND" H 1250 1450 50  0000 C CNN
+F 2 "" H 1250 1600 50  0000 C CNN
+F 3 "" H 1250 1600 50  0000 C CNN
+	1    1250 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59E18286
+P 900 1600
+F 0 "#PWR?" H 900 1350 50  0001 C CNN
+F 1 "GND" H 900 1450 50  0000 C CNN
+F 2 "" H 900 1600 50  0000 C CNN
+F 3 "" H 900 1600 50  0000 C CNN
+	1    900  1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X08 P?
+U 1 1 59E1A0C0
+P 1550 1200
+F 0 "P?" H 1550 1650 50  0000 C CNN
+F 1 "CONN_01X08" V 1650 1200 50  0000 C CNN
+F 2 "" H 1550 1200 50  0000 C CNN
+F 3 "" H 1550 1200 50  0000 C CNN
+	1    1550 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 850  1900 850 
+Wire Wire Line
+	1750 1050 1900 1050
+Wire Wire Line
+	1750 1250 1900 1250
+Wire Wire Line
+	1750 1450 1900 1450
+Wire Wire Line
+	1750 950  1800 950 
+Wire Wire Line
+	1800 950  1800 1700
+$Comp
+L GND #PWR?
+U 1 1 59E1A306
+P 1800 1700
+F 0 "#PWR?" H 1800 1450 50  0001 C CNN
+F 1 "GND" H 1800 1550 50  0000 C CNN
+F 2 "" H 1800 1700 50  0000 C CNN
+F 3 "" H 1800 1700 50  0000 C CNN
+	1    1800 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1550 1800 1550
+Connection ~ 1800 1550
+Wire Wire Line
+	1750 1350 1800 1350
+Connection ~ 1800 1350
+Wire Wire Line
+	1750 1150 1800 1150
+Connection ~ 1800 1150
+$Comp
+L Polyfuse F?
+U 1 1 59E1A3CE
+P 2050 850
+F 0 "F?" V 1950 850 25  0000 C CNN
+F 1 "Polyfuse" V 2050 850 25  0000 C CNN
+F 2 "" H 2100 650 50  0001 L CNN
+F 3 "" H 2050 850 50  0001 C CNN
+	1    2050 850 
+	0    1    1    0   
+$EndComp
+$Comp
+L Polyfuse F?
+U 1 1 59E1A413
+P 2050 1050
+F 0 "F?" V 1950 1050 25  0000 C CNN
+F 1 "Polyfuse" V 2050 1050 25  0000 C CNN
+F 2 "" H 2100 850 50  0001 L CNN
+F 3 "" H 2050 1050 50  0001 C CNN
+	1    2050 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Polyfuse F?
+U 1 1 59E1A43A
+P 2050 1250
+F 0 "F?" V 1950 1250 25  0000 C CNN
+F 1 "Polyfuse" V 2050 1250 25  0000 C CNN
+F 2 "" H 2100 1050 50  0001 L CNN
+F 3 "" H 2050 1250 50  0001 C CNN
+	1    2050 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Polyfuse F?
+U 1 1 59E1A468
+P 2050 1450
+F 0 "F?" V 1950 1450 25  0000 C CNN
+F 1 "Polyfuse" V 2050 1450 25  0000 C CNN
+F 2 "" H 2100 1250 50  0001 L CNN
+F 3 "" H 2050 1450 50  0001 C CNN
+	1    2050 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 850  2550 850 
+Text Label 2550 850  2    60   ~ 0
+PWR_1
+Wire Wire Line
+	2200 1050 2550 1050
+Text Label 2550 1050 2    60   ~ 0
+PWR_2
+Wire Wire Line
+	2200 1250 2550 1250
+Text Label 2550 1250 2    60   ~ 0
+PWR_3
+Wire Wire Line
+	2200 1450 2550 1450
+Text Label 2550 1450 2    60   ~ 0
+PWR_4
+Wire Wire Line
+	1650 3900 2150 3900
+$Comp
+L R R?
+U 1 1 59E1C22D
+P 2300 3900
+F 0 "R?" V 2380 3900 50  0000 C CNN
+F 1 "500uΩ" V 2200 3900 50  0000 C CNN
+F 2 "" V 2230 3900 50  0000 C CNN
+F 3 "" H 2300 3900 50  0000 C CNN
+	1    2300 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 3900 2850 3900
+Wire Wire Line
+	2000 3900 2000 4100
+Wire Wire Line
+	2650 4100 2650 3900
+Connection ~ 2650 3900
+Connection ~ 2000 3900
+$Comp
+L R R?
+U 1 1 59E1C2BB
+P 2300 4100
+F 0 "R?" V 2300 4100 50  0000 C CNN
+F 1 "0.3Ω" V 2400 4100 50  0000 C CNN
+F 2 "" V 2230 4100 50  0000 C CNN
+F 3 "" H 2300 4100 50  0000 C CNN
+	1    2300 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 4100 2150 4100
+Wire Wire Line
+	2450 4100 2650 4100
+Wire Wire Line
+	2850 3900 2850 3750
+$Comp
+L +12V #PWR?
+U 1 1 59E1C6AF
+P 2850 3750
+F 0 "#PWR?" H 2850 3600 50  0001 C CNN
+F 1 "+12V" H 2850 3890 50  0000 C CNN
+F 2 "" H 2850 3750 50  0000 C CNN
+F 3 "" H 2850 3750 50  0000 C CNN
+	1    2850 3750
+	1    0    0    -1  
+$EndComp
+Text Label 1650 3900 0    60   ~ 0
+PWR_1
+$EndSCHEMATC
